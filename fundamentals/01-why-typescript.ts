@@ -1,4 +1,4 @@
-const courseName = "Typescript Bootcamp";
+const courseName = "Typescript Bootcamp v3";
 
 printCourseName(courseName);
 
