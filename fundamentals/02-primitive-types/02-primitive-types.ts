@@ -30,3 +30,22 @@ function printCourse(title: string, subtitle: string, lessonsCount: number) {
     const newNumber = lessonsCount + 10;
 
 }
+
+//object types  
+//in general objects can be safely inferred without specifically defining an object type annotation
+//can be written as >> const course: object {};
+//also can define property types like below
+const course: {
+    title: string,
+    subtitle: string,
+    lessons: number
+} = {
+    title: "TypeScript Bootcamp",
+    subtitle: "Learn TypeScript!",
+    lessons: 10
+};
+
+//TypeScript doesn't allow you to add new properties like plain JavaScript does
+//(they need to be added as an optional property in advance)
+const.fullTitle = "";
+
