@@ -22,3 +22,11 @@ if (published) {
     console.log("The course is published");
 
 };
+
+//function parameters should always have declared type annotations
+function printCourse(title: string, subtitle: string, lessonsCount: number) {
+
+    const fullTitle = title + subtitle;
+    const newNumber = lessonsCount + 10;
+
+}
