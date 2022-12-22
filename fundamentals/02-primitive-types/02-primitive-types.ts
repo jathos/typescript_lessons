@@ -65,3 +65,10 @@ const newCourse = {
     }
 };
 
+//optional chaining
+let lesson = "Optional Chaining";
+
+if (lesson?.title) {
+    console.log("The '?.' operator is like saying 'lesson || lesson.title'")
+};
+
