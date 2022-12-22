@@ -72,3 +72,10 @@ if (lesson?.title) {
     console.log("The '?.' operator is like saying 'lesson || lesson.title'")
 };
 
+//the typescript null coalescing operator
+let nadaValue = null;
+
+//if there is no value to a particular variable you can assign a default value with ??
+let practice = nadaValue?.poopoo ?? "There is no poopoo";
+
+console.log(practice); //this will print "There is no poopoo"
