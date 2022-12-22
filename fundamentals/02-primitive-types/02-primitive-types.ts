@@ -38,14 +38,30 @@ function printCourse(title: string, subtitle: string, lessonsCount: number) {
 const course: {
     title: string,
     subtitle: string,
-    lessons: number
+    lessons: number,
+    author: {
+        firstName: string,
+        lastName: string
+    }
 } = {
     title: "TypeScript Bootcamp",
     subtitle: "Learn TypeScript!",
-    lessons: 10
+    lessons: 10,
+    author: {
+        firstName: "Josh",
+        lastName: "Bee"
+    }
 };
 
 //TypeScript doesn't allow you to add new properties like plain JavaScript does
 //(they need to be added as an optional property in advance)
 const.fullTitle = "";
+
+//nested object types can also be inferred
+const newCourse = {
+    author: {
+        firstName: "Vasco",
+        lastName: "Cavalheiro"
+    }
+};
 
