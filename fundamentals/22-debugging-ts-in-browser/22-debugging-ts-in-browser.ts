@@ -19,7 +19,7 @@ function printCourseName(name: string) {
 
 };
 
-//another useful feature is a flag that can be used when compliling
+//another useful debugging feature is a flag that can be used when compliling
 //your typescript into javascript
 //typically, you would need to first compile this file into javascript
 //before you could run it in the browser
@@ -28,3 +28,9 @@ function printCourseName(name: string) {
 //in order view your typescript code in the browser, use the --sourcemap
 //flag when running the compiler
 //example:   tsc --sourcemap 22-debugging-ts-in-browser.ts
+
+
+//for an example of debugging through node with vscode, please see:
+//https://angular-university.io/lesson/typescript-bootcamp-debugging-typescript-in-node
+//you need to run file in node with the --inspect-brk flag
+//then you will need to attach a debugger using the Run and Debug tab in vscode
