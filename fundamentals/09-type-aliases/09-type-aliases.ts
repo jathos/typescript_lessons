@@ -26,3 +26,4 @@ let course: Course = {
 //you can still add new properties if you want though, as shown by the 
 //randomThing property
 //intefaces are used with objects more often than aliases, however (see lesson 10)
+
